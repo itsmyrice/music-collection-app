@@ -1,15 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState, useEffect } from "react"
+// import useLocalStorageState from "use-local-storage-state"
+// import { uid } from "uid";
+import "./App.css";
+import AlbumCard from "./components/AlbumCard/Index.js";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Music Collection App</h1>
-        
-      </header>
+    <div>
+      <main>
+        <div className="App">
+          <AlbumCard />
+          </div>
+      </main>
     </div>
   );
-}
+  }
 
-export default App;
+
+
+

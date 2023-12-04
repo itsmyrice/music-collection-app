@@ -1,0 +1,97 @@
+:root {
+    --dark-color: #2A3439;
+    --primary-color: #36454F;
+    --secondary-color: #536878;
+    --third-color: #708090;
+    --forth-color: #91A3B0;
+    --fifth-color: #BEBFC5;
+    --light-color: #E5E4E2;
+    --lighter-color: #F5F5F5;
+    --silver-color: #C0C0C0;
+    
+}
+
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 0.2rem;
+}
+
+.Card {
+   border: 1px solid var(--forth-color);
+   background-color: var(--dark-color);
+   border-radius: 1rem;
+   box-shadow: 0px 3px 6px;
+   padding: 2rem 3rem;
+   margin: 2rem 0;
+   color: var(--silver-color);
+
+}
+
+.img {
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.img:hover {
+ cursor: pointer;
+ opacity: 0.8;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  border-style: hidden;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+/* @media screen and (min-width: 768px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Card {
+       border: 1px solid var(--forth-color);
+       background-color: var(--dark-color);
+       border-radius: 1rem;
+       box-shadow: 0px 3px 6px;
+       padding: 4rem 6rem;
+       margin: 4rem 0;
+       color: var(--silver-color);
+    
+    }
+    
+    .img {
+        border: 1px solid var(--primary-color);
+        margin: 2rem 0;
+    }
+    
+    .img:hover {
+     cursor: pointer;
+     opacity: 0.8;
+    }
+    
+    .button {
+      background-color: var(--secondary-color);
+      border-radius: 1rem;
+      border-style: inherit;
+      margin-bottom: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    } */
+
