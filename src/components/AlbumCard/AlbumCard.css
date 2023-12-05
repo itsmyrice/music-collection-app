@@ -39,7 +39,7 @@ h1 {
 }
 
 .img:hover {
- opacity: 0.1;
+ opacity: 0.6;
 }
 
 .button {
@@ -50,12 +50,17 @@ h1 {
   margin: 1rem;
 }
 
-button p {
-    display: none;
+.lists {
+  opacity: 0;
 }
 
-button p:hover {
- display: block;
+.lists:hover {
+ visibility: visible;
+ opacity: 1;
+ color: var(--dark-color);
+ font-size: 1rem;
+ font-weight: bold;
+ padding: 0;
 }
 
 /* @media screen and (min-width: 768px) {

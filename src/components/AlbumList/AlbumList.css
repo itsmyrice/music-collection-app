@@ -3,3 +3,9 @@ h1 {
     justify-content: center;
     margin-top: 3rem;
 }
+
+h2 {
+    position: relative;
+    left: 2.3rem;
+    margin-top: 3.5rem;
+}
