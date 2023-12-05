@@ -15,25 +15,24 @@
     
 }
 
-@media screen and (max-width: 800px) {
+
     body {
     background-color: var(--primary-color);
     font-family: fantasy;
     font-size: 1rem;
     color: var(--lighter-color);
-    
+    }
+
     .App {
-    margin: 2rem 5rem;
+    /* margin: 2rem 5rem; */
     display: flex;
     min-height: 100vh;
     align-items: center;
-    padding: 1rem 2rem;
-}
+    /* padding: 1rem 2rem; */
+    }
+    
 
-}
-}
-
-@media screen and (min-width: 801px) {
+/* @media screen and (min-width: 801px) {
     body {
     background-color: var(--primary-color);
     font-family: fantasy;
@@ -50,4 +49,4 @@
 }
 
 }
-}
+} */

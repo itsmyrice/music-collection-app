@@ -1,22 +1,18 @@
-// import './SongList.css';
-// import AlbumCard from '../AlbumCard/Index';
-// import { useState } from "react";
+import './SongList.css';
 
-// export default function SongList() {
-//   const [list, setList] = useState(false);
-
-
-//   const handleToggle = () => {
-//   setList(!list);
-
-
-//     return (
-//         <ul>
-//           {songlist.map((song) => (
-//             <li key={song.id}>
-//               {song.tracks.track_number}. {song.tracks.name} - {song.tracks.duration}
-//             </li>
-//           ))}
-//         </ul>
-//       );
-//     }
+export default function SongList({ tracks }) {
+  
+    return (
+        <>
+        <ul>
+          {tracks.tracks.map((song) => (
+            <li key={song.id}>
+             <span>{song.track_number}</span>
+             <span>{song.name}</span>
+             <span>{song.duration}</span>     
+            </li>
+          ))}
+        </ul>
+        </>
+      );
+}

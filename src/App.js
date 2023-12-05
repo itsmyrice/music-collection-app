@@ -1,8 +1,9 @@
 // import { useState, useEffect } from "react"
 // import useLocalStorageState from "use-local-storage-state"
 // import { uid } from "uid";
+import { data } from "./db.js";
 import "./App.css";
-import AlbumCard from "./components/AlbumCard/Index.js";
+import AlbumList from './components/AlbumList/Index.js';
 
 
 export default function App() {
@@ -10,7 +11,7 @@ export default function App() {
     <div>
       <main>
         <div className="App">
-          <AlbumCard />
+          <AlbumList albums={data}/>
           </div>
       </main>
     </div>

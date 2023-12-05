@@ -15,8 +15,9 @@
 .Container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    padding: 1.5rem;
+    gap: 1rem;
 }
 
 h1 {
@@ -28,33 +29,34 @@ h1 {
    background-color: var(--dark-color);
    border-radius: 1rem;
    box-shadow: 0px 3px 6px;
-   padding: 2rem 3rem;
-   margin: 2rem 0;
    color: var(--silver-color);
-
 }
 
 .img {
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.4rem;
 }
 
 .img:hover {
- cursor: pointer;
- opacity: 0.8;
+ opacity: 0.1;
 }
 
 .button {
+  cursor: pointer;
   background-color: var(--secondary-color);
   border-radius: 1rem;
   border-style: hidden;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 
+button p {
+    display: none;
+}
 
+button p:hover {
+ display: block;
+}
 
 /* @media screen and (min-width: 768px) {
     .Container {
