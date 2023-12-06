@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { data } from "./db.js";
+import "./App.css";
+import AlbumList from "./components/AlbumList/Index.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Music Collection App</h1>
-        
-      </header>
+    <div>
+      <main>
+        <div className="App">
+          <AlbumList albums={data} />
+        </div>
+      </main>
     </div>
   );
 }
-
-export default App;
