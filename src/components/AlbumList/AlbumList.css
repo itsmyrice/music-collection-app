@@ -3,6 +3,7 @@ h1 {
     justify-content: center;
     margin-top: 3rem;
     text-shadow: 4px 2px 3px var(--dark-color);
+    letter-spacing: 0.2rem;
 }
 
 h2 {

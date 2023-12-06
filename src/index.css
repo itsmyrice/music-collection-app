@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --dark-color: #2a3439;
   --primary-color: #36454f;
@@ -17,6 +21,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  color: var(--lighter-color);
 }
 
 code {
