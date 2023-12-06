@@ -10,3 +10,11 @@ li {
     justify-content: space-between;
 }
 
+.song_list {
+ border: 1px solid var(--dark-color);
+ background-color: var(--primary-color);
+ border-radius: 0.5rem;
+ box-shadow: 0px 1px 1px;
+ margin: 0.3rem 0;
+ padding: 0.2rem 0.6rem;
+}

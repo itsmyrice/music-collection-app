@@ -10,13 +10,11 @@ export default function AlbumCard({ album }) {
     setShowList(!showList);
   }
 
-  useEffect(() => {}, []);
-
   return (
     <div className="Container">
       <div key={album.id} className="Card">
         <button type="button" className="button" onClick={handleToggle}>
-          <img className="img" src={album.image.url} alt="" width="200" />
+          <img className="img" src={album.image.url} alt="" />
           <p className="lists">
             {" "}
             <MdOutlinePlaylistPlay /> Show Songlist
