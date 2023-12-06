@@ -1,52 +1,16 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-:root {
-    --dark-color: #2A3439;
-    --primary-color: #36454F;
-    --secondary-color: #536878;
-    --third-color: #708090;
-    --forth-color: #91A3B0;
-    --fifth-color: #BEBFC5;
-    --light-color: #E5E4E2;
-    --lighter-color: #F5F5F5;
-    --silver-color: #C0C0C0;
-    
+body {
+  background-color: var(--primary-color);
+  font-family: fantasy;
+  font-size: 1rem;
+  color: var(--lighter-color);
 }
 
-
-    body {
-    background-color: var(--primary-color);
-    font-family: fantasy;
-    font-size: 1rem;
-    color: var(--lighter-color);
-    }
-
-    .App {
-    /* margin: 2rem 5rem; */
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    /* padding: 1rem 2rem; */
-    }
-    
-
-/* @media screen and (min-width: 801px) {
-    body {
-    background-color: var(--primary-color);
-    font-family: fantasy;
-    margin: 0;
-    font-size: 2rem;
-    color: var(--lighter-color);
-    
-    .App {
-    margin: 4rem 10rem;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    padding: 2rem 4rem;
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
 }
-
-}
-} */
