@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../AlbumCard/AlbumCard.css";
 import SongList from "../SongList/Index.js";
 import { MdOutlinePlaylistPlay } from "react-icons/md";
